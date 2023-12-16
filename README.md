@@ -1,31 +1,16 @@
-# Tugas Besar Teori Bahasa Formal dan Automata (TBFO)
-## HTML Checker with Pushdown Automata (PDA)
-## Table of Contents
-  - [Table of Contents](#table-of-contents)
-  - [General Information](#general-information)
-  - [Contributor](#contributor)
-  - [Technologies Used](#technologies-used)
-  - [Features](#features)
-  - [Structure](#structure)
-  - [How to Use](#how-to-use)
-    - [Dependencies](#dependencies)
-    - [Installation](#installation)
+# 🧩 HTML Syntax Checker using Pushdown Automata (PDA)
+
+## Project Overview
+Welcome to the HTML Syntax Checker using Pushdown Automata (PDA) project! This repository represents my third-semester assignment for the Formal Language and Automata Theory course at ITB.
 
 ## General Information
 HTML (Hypertext Markup Language) serves as a markup language utilized in shaping the structure and visual presentation of web content. Through elements (tags), HTML organizes and groups content. Similar to most languages, HTML maintains its own syntax for writing, the violation of which can lead to errors. An error detection program for HTML is essential to verify the accuracy of tag usage and its associated attributes.
-
-## Contributor
-### Mulia Pratama Clan
-| Nama | NIM |
-|---|---|
-| Aland Mulia Pratama | 13522124 |
-| Rizqika Mulia Pratama | 13522126 |
-| Ikhwan Al Hakim | 13522147 |
 
 ## Technologies Used
 - Python3
 
 ## Features
+
 Considering many types of tags and attributes available in HTML, the scope of programming assignments will be limited. The limitations of the tags and attributes checked can be seen below.
 | Tag | Attributes | Void Element | Notes |
 |---|---|---|---|
@@ -89,8 +74,8 @@ This program also has an additional feature, namely telling you where the error 
 ---
 
 ## How to Use
-    git clone https://github.com/Nerggg/Tubes-TBFO-2023
-    cd Tubes-TBFO-2023/src
+    git clone https://github.com/rizqikapratamaa/HTML-Syntax-checker-using-Pushdown-Automata
+    cd HTML-Syntax-checker-using-Pushdown-Automata/src
     python main.py pda.txt <test-case-name>.html
 
 ### Dependencies
